@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Odyssey.Domain.Entities.Journey>
+
+@{
+    ViewBag.Title = "Journeys";
+}
+
+<h2>Journeys</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.OriginLocationCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DestinationLocationCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OperatingCompanyId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StartDateAndTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EndDateAndTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OtherDetails)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OriginLocationCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DestinationLocationCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OperatingCompany.OperatingCompanyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDateAndTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndDateAndTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OtherDetails)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.JourneyId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.JourneyId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.JourneyId })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,5 @@
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Domain\bin\Debug\Odyssey.Domain.dll
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Domain\bin\Debug\Odyssey.Domain.pdb
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Domain\obj\Debug\Odyssey.Domain.dll
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Domain\obj\Debug\Odyssey.Domain.pdb
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Domain\obj\Debug\Odyssey.Domain.csprojResolveAssemblyReference.cache

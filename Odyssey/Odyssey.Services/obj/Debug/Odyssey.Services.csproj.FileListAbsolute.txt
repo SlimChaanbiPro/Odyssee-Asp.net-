@@ -1,0 +1,11 @@
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Services\bin\Debug\Odyssey.Services.dll
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Services\bin\Debug\Odyssey.Services.pdb
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Services\bin\Debug\Odyssey.Data.dll
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Services\bin\Debug\Odyssey.Domain.dll
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Services\bin\Debug\EntityFramework.dll
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Services\bin\Debug\Odyssey.Data.pdb
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Services\bin\Debug\Odyssey.Domain.pdb
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Services\bin\Debug\EntityFramework.xml
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Services\obj\Debug\Odyssey.Services.csprojResolveAssemblyReference.cache
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Services\obj\Debug\Odyssey.Services.dll
+C:\Users\Ghassen\Documents\Visual Studio 2013\Projects\Odyssey\Odyssey.Services\obj\Debug\Odyssey.Services.pdb

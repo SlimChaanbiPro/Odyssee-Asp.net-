@@ -1,0 +1,72 @@
+﻿@model Odyssey.Domain.Entities.Journey
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Journey</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Destination.LocationName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Destination.LocationName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OperatingCompany.OperatingCompanyName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OperatingCompany.OperatingCompanyName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Origin.LocationName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Origin.LocationName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StartDateAndTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StartDateAndTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EndDateAndTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EndDateAndTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OtherDetails)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OtherDetails)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
